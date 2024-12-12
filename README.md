@@ -23,28 +23,28 @@ dimensionality reduction visualizations, and metadata,
 along with files processed for quality control and doublet removal.
 
 
-* brain_counts.csv.gz: compressed file containing the gene expression matrix of 3,401 cells × 23,433 genes for the brain dataset.
+* `brain_counts.csv.gz`: compressed file containing the gene expression matrix of 3,401 cells × 23,433 genes for the brain dataset.
 
-* brain_embeddings.h5ad.gz: compressed file containing dimensionality reduction visualizations used for clustering and visualization.
+* `brain_embeddings.h5ad.gz`: compressed file containing dimensionality reduction visualizations used for clustering and visualization.
 
-* brain_metadata.csv.gz: compressed file containing metadata for the brain dataset, including cell type annotations and experimental conditions.
+* `brain_metadata.csv.gz`: compressed file containing metadata for the brain dataset, including cell type annotations and experimental conditions.
 
-* brain_qc.h5ad.gz: compressed file containing the brain dataset after quality control with doublets removed.
+* `brain_qc.h5ad.gz`: compressed file containing the brain dataset after quality control with doublets removed.
 
-* brain_raw.h5ad.gz: compressed file containing the raw brain dataset, including steps for doublet detection and removal.
+* `brain_raw.h5ad.gz`: compressed file containing the raw brain dataset, including steps for doublet detection and removal.
 
 ## notebooks 
-* 01_02_EDA_and_QC.ipynb: performs exploratory data analysis, preprocessing with SCANPY, and quality control metrics.
+* `01_02_EDA_and_QC.ipynb`: performs exploratory data analysis, preprocessing with SCANPY, and quality control metrics.
 
-* 03_doublets_mito_rib_visualization.ipynb: covers doublets removal and data visualization by ontology class.
+* `03_doublets_mito_rib_visualization.ipynb`: covers doublets removal and data visualization by ontology class.
 
-* 04_SVM_benchmark.ipynb: implements a support vector machine as a benchmarking model.
+* `04_SVM_benchmark.ipynb`: implements a support vector machine as a benchmarking model.
 
-* 05_CellTypist.ipynb : uses CellTypist for cell classification.
+* `05_CellTypist.ipynb` : uses CellTypist for cell classification.
 
-* 06_Cell_BLAST.ipynb: applies Cell BLAST for cell classification.
+* `06_Cell_BLAST.ipynb`: applies Cell BLAST for cell classification.
 
-* 07_scANVI.ipynb: utilizes scANVI for cell classification.
+* `07_scANVI.ipynb`: utilizes scANVI for cell classification.
 
 # Notes
 
